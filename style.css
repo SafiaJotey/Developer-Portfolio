@@ -66,3 +66,7 @@ h1{
    border-image: linear-gradient(rgb(255, 0, 200), rgb(235, 135, 152));
    border-image-slice: 1;
 }
+footer p{
+    text-align: center;
+    color: gray;
+}
