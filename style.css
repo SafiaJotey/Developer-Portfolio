@@ -1,3 +1,37 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+
+.orange_highlight{
+    color:orange;
+}
+section{
+    display:flex;
+}
+
+.half-width{
+    width:50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(231, 54, 83), rgb(243, 161, 10));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+    
+    
+}
+.top-banner{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
