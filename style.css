@@ -19,6 +19,9 @@ h1{
     width:50%;
     padding-left: 5%;
 }
+.half-width p{
+    margin: 20px 0;
+}
 .half-width img{
     width: 100%;
 }
@@ -77,7 +80,7 @@ footer p{
 /* responsive */
 
 
-@media only screen and (max-width: 992px ) {
+@media only screen and (max-width: 768px ) {
     .fexible-container{
         display:block;
        
@@ -85,6 +88,7 @@ footer p{
     .half-width{
         width:80%;
         padding-left: 10%;
+        margin: 40px 0;
     }
     .experienceItem{
         
@@ -92,6 +96,9 @@ footer p{
         margin:20px 5% ;
        
         
+    }
+    .experience h1{
+        text-align: center;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
